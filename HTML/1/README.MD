@@ -90,9 +90,10 @@ The <head> section contains metadata not displayed on the page, such as the char
 The <title> tag sets the title that appears in the browser tab. The visible content of the page is all placed within the <body> element.
 
 * Elements, Syntax, and Attributes
+
 Within the body, the code uses various elements to structure content.
-The <h1> tag defines the main heading of the page.
- This demonstrates the core HTML syntax of an opening tag (<h1>), content (Hello, HTML!), and a closing tag (</h1>).
+The `<h1>` tag defines the main heading of the page.
+ This demonstrates the core HTML syntax of an opening tag (`<h1>`), content (Hello, HTML!), and a closing tag (`a`).
 The <p> tags are used for paragraphs of text, further illustrating this fundamental syntax.
 
 The code also effectively uses attributes to add properties to elements. 
