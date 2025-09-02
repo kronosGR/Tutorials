@@ -84,22 +84,23 @@ Attributes can also be used to control how elements behave or look on a page, su
 It demonstrates how different elements are structured to form a complete, readable document.
 
 * Document Structure
+
 The code starts with <!DOCTYPE html>, which declares the document type as HTML5.
 The entire page is contained within the <html> element, which has a lang="en" attribute to specify the language as English for accessibility and SEO.
-The <head> section contains metadata not displayed on the page, such as the character set (<meta charset="UTF-8">) and the viewport settings (<meta name="viewport"...>) for responsive design.
-The <title> tag sets the title that appears in the browser tab. The visible content of the page is all placed within the <body> element.
+The `<head>` section contains metadata not displayed on the page, such as the character set (`<meta charset="UTF-8">`) and the viewport settings (`<meta name="viewport"...>`) for responsive design.
+The `<title>` tag sets the title that appears in the browser tab. The visible content of the page is all placed within the `<body> `element.
 
 * Elements, Syntax, and Attributes
 
 Within the body, the code uses various elements to structure content.
 The `<h1>` tag defines the main heading of the page.
  This demonstrates the core HTML syntax of an opening tag (`<h1>`), content (Hello, HTML!), and a closing tag (`a`).
-The <p> tags are used for paragraphs of text, further illustrating this fundamental syntax.
+The `<p>` tags are used for paragraphs of text, further illustrating this fundamental syntax.
 
 The code also effectively uses attributes to add properties to elements. 
-The <a> (anchor) tag creates a hyperlink, and its href attribute specifies the URL of the destination page, in this case, a file named about.html within the same project. 
-The <img> tag, a self-closing element, uses the src attribute to define the source of the image file and the alt attribute to provide a text description for screen readers or if the image fails to load. 
-Finally, a title attribute on the second <a> tag provides extra information that appears as a tooltip when a user hovers over the link. 
+The `<a>` (anchor) tag creates a hyperlink, and its href attribute specifies the URL of the destination page, in this case, a file named about.html within the same project. 
+The `<img> `tag, a self-closing element, uses the src attribute to define the source of the image file and the alt attribute to provide a text description for screen readers or if the image fails to load. 
+Finally, a title attribute on the second `<a>` tag provides extra information that appears as a tooltip when a user hovers over the link. 
 The comments within the code (using ``) provide human-readable explanations of the purpose of each element.
 
 
@@ -110,7 +111,7 @@ The comments within the code (using ``) provide human-readable explanations of t
 4. Can all HTML elements be closed with a closing tag? Explain.
 5. What is the purpose of attributes in HTML?
 6. Give two examples of attributes and their usage.
-7. How do you create a hyperlink in HTML using the <a> tag?
+7. How do you create a hyperlink in HTML using the `<a>` tag?
 8. What is the difference between src and href attributes?
 9. Why might you use an alt attribute in an image tag?
 10. How do you define a paragraph in HTML?
